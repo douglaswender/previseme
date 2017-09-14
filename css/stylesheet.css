@@ -1,53 +1,64 @@
-html{
-    border: 
+.container {
+   max-width: 100%;
+   margin: 0em;
+
 }
-body{
-    margin: 0;
+/*Clear fix para design responsivo*/
+.clearfix:before,
+.clearfix:after {
+   content: " ";
+   display: table;
 }
-nav, footer, header, section {
-    display: block;
+
+.clearfix:after {
+   clear: both;
 }
-a{
-  color: #FFFFFF;
-  text-decoration: none;
+
+.clearfix {
+   *zoom: 1;
 }
-h1{
-    font-size: 2em;
-    margin: 0.5em 0;
+/*Fim do Clear Fix*/
+img,
+picture,
+video,
+embed {
+   max-width: 100%;
 }
-strong{
-    font-weight: inherit;
+*, *:before, *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
-small{
-    font-size: 80%;
+.header {
+   width: 100%;
+   height: 36px;
+   margin-top: 0em;
+   margin-bottom: 0em;
+   background-color: #5DBCD2;
 }
-button, input, select, textarea{
-    font-family: sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
+.logo {
+   width: 20.744680851064%; /*234px / 1128px */
+   float: left;
 }
-button,input{
-    overflow: visible;
+.menu {
+   width: 20%%; /*840px / 1128px */
+   float: left;
+    margin: inherit;
+    padding: inherit;
 }
-button, select{
-    text-transform:none;
+.footer {
+   width: 100%;
+   margin-top: 2.4em;
+   margin-bottom: 2.4em;
+   float: left;
+   clear: both;
 }
 .title{
-  font-family: sans-serif;
-  font-size: 24px;
-  font-style: ;
+    font: 100% arial, helvetica, sans-serif;
+    float: center;
+    
 }
-div.full{
-  width: 100%;
-  height: 100%
-}
-.container {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-}
-.backgroundTitle{
-  background-color: #3281B1;
+a{
+    text-decoration: none;
+    
 }
