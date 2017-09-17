@@ -1,64 +1,6 @@
-.container {
-   max-width: 100%;
-   margin: 0em;
-
+.avat{
+  border-radius: 50%;
 }
-/*Clear fix para design responsivo*/
-.clearfix:before,
-.clearfix:after {
-   content: " ";
-   display: table;
-}
-
-.clearfix:after {
-   clear: both;
-}
-
-.clearfix {
-   *zoom: 1;
-}
-/*Fim do Clear Fix*/
-img,
-picture,
-video,
-embed {
-   max-width: 100%;
-}
-*, *:before, *:after {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
-.header {
-   width: 100%;
-   height: 36px;
-   margin-top: 0em;
-   margin-bottom: 0em;
-   background-color: #5DBCD2;
-}
-.logo {
-   width: 20.744680851064%; /*234px / 1128px */
-   float: left;
-}
-.menu {
-   width: 20%%; /*840px / 1128px */
-   float: left;
-    margin: inherit;
-    padding: inherit;
-}
-.footer {
-   width: 100%;
-   margin-top: 2.4em;
-   margin-bottom: 2.4em;
-   float: left;
-   clear: both;
-}
-.title{
-    font: 100% arial, helvetica, sans-serif;
-    float: center;
-    
-}
-a{
-    text-decoration: none;
-    
+.header{
+  width: 20%;
 }
