@@ -1,0 +1,12 @@
+Três pessoas estão em um bar, José, Maria e João
+
+José ta olhando para a Maria, mas a Maria ta olhando pro João. o José é casado e o João é solteiro.
+
+Com base nestas informações pode-se afirmar que uma pessoa casada está olhando para uma pessoa solteira?
+
+a)Sim
+b)Não
+c)Não se pode chegar a uma conclusão
+
+Resposta:
+Alternativa 'c' pois não posso chegar a uma conclusão sobre Maria, que pode ser casada ou solteira
